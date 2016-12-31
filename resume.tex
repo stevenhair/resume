@@ -1,0 +1,167 @@
+\documentclass[11pt, oneside]{article}
+\usepackage[top=1in, bottom=0.9in, left=1.25in, right=1.25in]{geometry}
+\usepackage{xltxtra}
+\usepackage{fontspec}
+\usepackage{anyfontsize}
+\usepackage{xcolor}
+\usepackage{verbatim}
+\usepackage{changepage}
+
+% set some font features
+\defaultfontfeatures{Ligatures=TeX,Numbers=Lining}
+
+% remove page numbers
+\pagestyle{empty}
+
+% set font styles
+\setsansfont[Path=fonts/, UprightFont=* Regular, ItalicFont=* Italic]{Concourse T3}
+\setmainfont[Path=fonts/, UprightFont=* Regular, ItalicFont=* Italic]{Equity Text A}
+
+%-- name command --%
+\newcommand{\name}[1]{
+    \center{
+        \fontsize{25}{35}\selectfont
+        \fontspec[Path=fonts/]{Equity Caps A Regular}#1
+    }
+}
+
+%-- section heading --%
+\newcommand{\heading}[1]{
+    \vspace{11pt}
+    \raggedright
+    \color{gray}\hrulefill \\
+    \color{black}
+    {
+        \fontspec[Path=fonts/]{Concourse C6 Regular}
+        \large #1
+    }
+    \vspace{5pt}
+}
+
+%-- institution/company name, location, and years --%
+\newcommand{\institution}[3]{
+    \vspace{3pt}
+    {\Large #1, } {\large #2} \hfill {\large #3}
+}
+
+%-- position/degree--%
+\newcommand{\job}[2]{\quad {\normalsize{#1}} \hfill {\normalsize{#2}}}
+
+%-- responsibilities --%
+\newenvironment{position}[2]{
+    \job{#1}{#2}
+    
+			\begin{adjustwidth}{0in}{1in}
+				\vspace{-5pt}
+		    \begin{itemize}
+        		\setlength{\itemsep}{-2pt}
+}
+{
+    			\end{itemize}
+				\vspace{2pt}
+			\end{adjustwidth}
+    
+}
+
+%-- address --%
+\newenvironment{address}{
+    \vspace{0.1in}
+    \centering
+    \fontspec[Path=fonts/, UprightFont=* Regular]{Concourse C3}
+	\fontsize{13}{18}\selectfont
+}
+{
+   \par
+}
+
+
+\begin{document}
+
+\name{Steven C. Hair}
+
+\begin{address}
+    25 Irving Ter. Apt. 12A, Cambridge, MA 02138 \\
+    717.576.5413 \quad Me@StevenHair.com
+\end{address}
+
+
+%---- Education ----%
+\heading{Education}
+
+\institution{The Catholic University of America}{Washington, DC}{}
+
+\begin{position}{Master of Science in Electrical Engineering}{\large 2012--2013}
+    \item Cumulative GPA: 3.77
+\end{position}
+
+\begin{position}{Bachelor of Electrical Engineering, minor in Computer Science}{\large 2008--2012}
+    \item Cumulative GPA: 3.84, magna cum laude
+    \item Academic Awards: Dean's list (all semesters), Tau Beta Pi Member,\\ George McDuffie Excellence in Electrical Engineering Award
+\end{position}
+
+
+%---- Work Experience ----%
+\vspace{-10pt}
+\heading{Work Experience}
+
+%-- VAG Freelance Work --%
+\institution{V.A.G. Fuel, Inc.}{Hockessien, DE}{2014--present}
+
+\begin{position}{Freelance Software Developer}{}
+		\item Maintained legacy C\# software for processing fuel bids submitted by email
+		\item Designed and built a custom Django web application for receiving and processing fuel bids from multiple third party suppliers
+		\item Built a user-facing RESTful API for supplier data retrieval and submission
+		\item Built a Python application to scrape fuel bids from emails and attachments
+\end{position}
+
+%-- Gannett Fleming --%
+\institution{Gannett Fleming, Inc.}{Camp Hill, PA}{2013--present}
+
+\begin{position}{Systems Engineer/Software Engineer}{}
+    \item Designed and maintained instrumentation systems for dams and water plants
+    \item Programmed Rockwell PLCs (programmable logic controllers)
+	  \item Maintained custom client software (C\# with Oracle database backend)
+\end{position}
+
+%-- NRL --%
+\institution{US Naval Research Laboratory}{Washington, DC}{2012--2013}
+
+\begin{position}{Research Intern, Material Science Division}{}
+    \item Performed research in laser manufacturing and 3D printing
+    \item Managed and maintained laboratory computer systems and lasers
+    \item Programmed several data analysis tools in Python and Perl
+\end{position}
+
+%-- DHS --%
+\institution{US Department of Homeland Security}{Washington, DC}{2010--2012}
+
+\begin{position}{Intern, Office of Inspector General}{}
+    \item Wrote specification for a new case management system
+    \item Designed a document approval tracking system for DHS field offices
+\end{position}
+
+%-- Boeing --%
+\institution{Boeing Defense, Space, and Security}{St Louis, MO}{2011}
+
+\begin{position}{Software Engineering Intern, {Advanced Design Simulation}}{}
+    \item Built a mySQL database to centralize data for different simulation groups
+    \item Built a tool in PHP to improve compatibility between Boeing simulators
+\end{position}
+
+\begin{comment}
+%-- MATLAB TA --%
+\institution{The Catholic University of America}{Washington, DC}{2009--2011}
+
+\begin{position}{Teaching Assistant, {Introduction to Computer Science for Engineers}}{}
+    \item Worked with students in and out of class for a MATLAB course
+\end{position}
+\end{comment}
+
+%---- Computer Skills ----%
+\vspace{-10pt}
+\heading{Technical Skills}
+
+Windows, OS X, and Linux; MATLAB, Python, Django, Git, HTML/CSS, Javascript/jQuery\\[3pt]
+Experience in MySQL, Oracle, C/C++, C\#, Java, BASH/ZSH scripting, Perl, PHP, Flask
+
+\end{document}
