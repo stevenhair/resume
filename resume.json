@@ -11,7 +11,6 @@
       "address": "2705 Terrapin Rd",
       "postalCode": "MD 20906",
       "city": "Silver Spring",
-      "countryCode": "US",
       "region": "Maryland"
     },
     "profiles": [
@@ -85,8 +84,7 @@
       "area": "Electrical Engineering",
       "studyType": "Masters",
       "startDate": "2012-08",
-      "endDate": "2013-05",
-      "score": "3.600"
+      "endDate": "2013-05"
     },
     {
       "institution": "The Catholic University of America",
@@ -94,8 +92,7 @@
       "area": "Electrical Engineering",
       "studyType": "Bachelor",
       "startDate": "2008-08-25",
-      "endDate": "2012-05-05",
-      "score": "3.838"
+      "endDate": "2012-05-05"
     }
   ],
   "skills": [
@@ -127,12 +124,6 @@
         "Jenkins",
         "AWS"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
     }
   ],
   "meta": {
