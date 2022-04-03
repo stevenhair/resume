@@ -3,7 +3,7 @@ name: Build
 on:
   push:
     branches:
-      - 'pages'
+      - 'master'
 
 jobs:
   build:
@@ -27,7 +27,7 @@ jobs:
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
         with:
-          target_branch: pages2
+          target_branch: pages
           build_dir: public
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
