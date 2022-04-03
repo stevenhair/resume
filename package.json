@@ -1,0 +1,31 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Steven Hair's résumé",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build:html": "resume export --theme full resume.html",
+    "build:pdf": "resume export --theme full resume.pdf",
+    "start": "resume serve --theme full",
+    "test": "resume validate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenhair/resume.git"
+  },
+  "keywords": [
+    "resume",
+    "résumé"
+  ],
+  "author": "Steven Hair",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevenhair/resume/issues"
+  },
+  "homepage": "https://github.com/stevenhair/resume#readme",
+  "devDependencies": {
+    "jsonresume-theme-full": "^0.0.4",
+    "resume-cli": "^3.0.6"
+  }
+}
