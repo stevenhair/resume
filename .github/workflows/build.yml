@@ -1,0 +1,33 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - 'pages'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build:html && npm run build:pdf
+      - name: 'Create distributable'
+        run: mkdir public && mv resume.html public/index.html && mv resume.pdf public/
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: pages2
+          build_dir: public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
