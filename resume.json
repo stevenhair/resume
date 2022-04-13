@@ -47,7 +47,7 @@
       "endDate": "2019-09",
       "highlights": [
         "Assisted in managing a distributed team of contractors building a configurable dashboard with Angular and Java",
-        "Implemented Docker-based stacks that allows development of web projects without running all dependencies locally",
+        "Implemented Docker-based stacks that allow development of web projects without running all dependencies locally",
         "Built and maintained Docker-based CI/CD Jenkins pipelines to build and deploy services",
         "Developed and maintained backend applications and microservices written in Python, JavaScript, TypeScript, and Java",
         "Broke down a legacy Node.js/Ember.js monolith into microservices"
@@ -57,7 +57,7 @@
       "name": "V.A.G. Fuel, Inc.",
       "position": "Freelance Software Developer",
       "startDate": "2014-10",
-      "summary": "V.A.G. manages fuel purchasing for trucking companies. They receive daily bids from multiple suppliers and place orders for their customers.",
+      "summary": "V.A.G. manages fuel purchasing for trucking companies. They receive daily bids from multiple suppliers and place fuel orders for customers.",
       "highlights": [
         "Designed and built a Django application for receiving and processing fuel bids from multiple third-party suppliers",
         "Built a REST API for suppliers to submit quotes",
