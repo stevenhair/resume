@@ -29,5 +29,6 @@ jobs:
         with:
           target_branch: pages
           build_dir: public
+          fqdn: resume.steve.hair
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
