@@ -36,8 +36,9 @@
       "summary": "HedgeServ is an independent fund administrator that provides various fund accounting services and SaaS tools for portfolio management.",
       "highlights": [
         "Hired and managed a distributed international team of eight direct reports (five developers and three QAs)",
+        "Worked with project managers to turn client requests and business requirements into development tasks",
         "Successfully designed and managed the development of an authentication system that decoupled session validation from all company web services by using OAuth with Nginx+ for user session and machine-to-machine validation",
-        "Lead the development of first public documented API that enables clients to extract data and build their own tools against HedgeServ systems",
+        "Lead the development of the first documented API that enables clients to extract data and build their own tools against HedgeServ systems",
         "Began the transition from on-premises Linux servers to AWS"
       ]
     },
