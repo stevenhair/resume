@@ -2,16 +2,14 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Steven Hair",
-    "label": "Full-Stack Developer",
+    "label": "Team Lead/Full-Stack Developer",
     "image": "",
     "email": "me@stevenhair.com",
     "phone": "+1-717-576-5413",
     "summary": "",
     "location": {
-      "address": "2705 Terrapin Rd",
-      "postalCode": "MD 20906",
-      "city": "Silver Spring",
-      "region": "Maryland"
+      "city": "Santa Monica",
+      "region": "California"
     },
     "profiles": [
       {
