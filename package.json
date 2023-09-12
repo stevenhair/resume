@@ -5,10 +5,10 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "build:html": "resume export --theme full resume.html",
-    "build:pdf": "resume export --theme full resume.pdf",
-    "start": "resume serve --theme full",
-    "test": "resume validate"
+    "build:html": "resume export --resume resume.yml --theme full resume.html",
+    "build:pdf": "resume export --resume resume.yml --theme full resume.pdf",
+    "start": "resume serve --resume resume.yml --theme full",
+    "test": "resume validate --resume resume.yml"
   },
   "repository": {
     "type": "git",
