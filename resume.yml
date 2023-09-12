@@ -20,7 +20,7 @@ work:
     location: Boston, MA / Remote
     position: Software Team Lead / Manager
     url: https://www.hedgeserv.com/
-    startDate: 2019-09
+    startDate: '2019-09'
     summary: HedgeServ is an independent fund administrator that provides various fund accounting services and SaaS tools for portfolio management.
     highlights:
       - Hired and managed a distributed international team of nine direct reports (six developers and three QAs)
@@ -29,8 +29,8 @@ work:
       - Lead the development of the first documented public API to enable clients to extract data and build their own tools against HedgeServ data
       - Began the transition from on-premises Linux servers to AWS cloud-native services
   - position: Software Engineer
-    startDate: 2015-09
-    endDate: 2019-09
+    startDate: '2015-09'
+    endDate: '2019-09'
     highlights:
       - Assisted in managing a distributed team of contractors building a configurable dashboard with Angular and Java
       - Implemented Docker-based stacks that allow development of web projects without running all dependencies locally
@@ -39,7 +39,7 @@ work:
       - Broke down a legacy Node.js/Ember.js monolith into smaller, focused applications
   - name: V.A.G. Fuel, Inc.
     position: Freelance Software Developer
-    startDate: 2014-10
+    startDate: '2014-10'
     summary: V.A.G. manages fuel purchasing for trucking companies. They receive daily bids from multiple suppliers and place fuel orders for customers.
     highlights:
       - Designed and built a Django application for receiving and processing fuel bids from multiple third-party suppliers
@@ -49,8 +49,8 @@ work:
     location: Camp Hill, PA
     position: Systems Engineer
     url: https://www.gannettfleming.com/
-    startDate: 2013-07
-    endDate: 2015-08
+    startDate: '2013-07'
+    endDate: '2015-08'
     summary: Gannett Fleming is a consulting civil engineering firm that focuses on infrastructure including buildings, bridges, water plants, and more.
     highlights:
       - Designed and programmed control systems for water treatment plants using industrial PLCs
@@ -60,14 +60,14 @@ education:
     url: https://www.cua.edu/
     area: Electrical Engineering
     studyType: Masters
-    startDate: 2012-08
-    endDate: 2013-05
+    startDate: '2012-08'
+    endDate: '2013-05'
   - institution: The Catholic University of America
     url: https://www.cua.edu/
     area: Electrical Engineering
     studyType: Bachelor
-    startDate: 2008-08-25
-    endDate: 2012-05-05
+    startDate: '2008-08-25'
+    endDate: '2012-05-05'
 skills:
   - name: Frontend
     keywords:
@@ -92,4 +92,4 @@ skills:
 meta:
   canonical: https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json
   version: v1.0.0
-  lastModified: 2017-12-24T15:53:00
+  lastModified: '2017-12-24T15:53:00'
