@@ -18,43 +18,54 @@ basics:
 work:
   - name: HedgeServ
     location: Boston, MA / Remote
-    position: Software Team Lead / Manager
-    url: https://www.hedgeserv.com/
+    position: Software Engineering Manager / Team Lead
+    url: https://www.hedgeserv.com
     startDate: '2019-09'
     summary: HedgeServ is an independent fund administrator that provides various fund accounting services and SaaS tools for portfolio management.
     highlights:
-      - Hired and managed a distributed international team of nine direct reports (six developers and three QAs)
-      - Worked with project managers to turn client requests and business requirements into development tasks
-      - Successfully designed and managed the development of an authentication system that handles user session and machine-to-machine authentication for all company web services
-      - Lead the development of the first documented public API to enable clients to extract data and build their own tools against HedgeServ data
-      - Began the transition from on-premises Linux servers to AWS cloud-native services
-  - position: Software Engineer
+      - Built an effective, high-performing international team of nine direct reports (six developers and three QAs) working on four different services
+      - Worked with my team and business stakeholders to turn client requests into secure, performant services
+      - Designed and lead the creation of the public-facing and internal authentication services used by all company applications
+      - Orchestrated the development of the company's first public API that exposes data from applications managed by several different teams
+      - Provided support for web applications and services running both on-prem and in AWS
+  - name: HedgeServ
+    position: Software Engineer
     startDate: '2015-09'
     endDate: '2019-09'
     highlights:
-      - Assisted in managing a distributed team of contractors building a configurable dashboard with Angular and Java
-      - Implemented Docker-based stacks that allow development of web projects without running all dependencies locally
-      - Built and maintained Docker-based CI/CD Jenkins pipelines to build and deploy services
+      - Assisted in managing a team of overseas contractors, including on-site visits
+      - Built Docker-based development stacks that simplified running web applications locally
+      - Implemented standardized Jenkins CI/CD pipelines to build and deploy services with minimal configuration
       - Developed and maintained backend applications and microservices written in Python, JavaScript, TypeScript, and Java
-      - Broke down a legacy Node.js/Ember.js monolith into smaller, focused applications
-  - name: V.A.G. Fuel, Inc.
-    position: Freelance Software Developer
+      - Broke down a legacy Node.js/Ember.js monolith into smaller, focused applications to improve maintainability and modernize our services
+  - name: Freelance Software Developer
+#    position: Fuel management company
+    position: ' '
+    summary: V.A.G. is a small business that manages bulk fuel purchasing for companies with fleet vehicles.
     startDate: '2014-10'
-    summary: V.A.G. manages fuel purchasing for trucking companies. They receive daily bids from multiple suppliers and place fuel orders for customers.
     highlights:
-      - Designed and built a Django application for receiving and processing fuel bids from multiple third-party suppliers
-      - Built a REST API for suppliers to submit quotes
-      - Wrote a Python application to scrape fuel bids from emails and attachments and upload them to the Django application
+      - Developed a Django application that allows multiple fuel suppliers to submit bids manually, by email, or through a JSON API, which automated a previously manual process
+      - Wrote a reporting system for company staff to extract and process the bids by customer, location, fuel, and other parameters
+      - Deployed the web app to AWS using EC2 and a Postgres RDS instance
   - name: Gannett Fleming
     location: Camp Hill, PA
     position: Systems Engineer
-    url: https://www.gannettfleming.com/
+    url: https://www.gannettfleming.com
     startDate: '2013-07'
     endDate: '2015-08'
-    summary: Gannett Fleming is a consulting civil engineering firm that focuses on infrastructure including buildings, bridges, water plants, and more.
+    summary: Gannett Fleming is a consulting civil engineering firm that focuses on infrastructure including buildings, bridges, dams, and water plants.
     highlights:
-      - Designed and programmed control systems for water treatment plants using industrial PLCs
+      - Designed industrial control systems and programmed PLCs for water treatment plants
       - Wrote project specifications that were sent to contractors for bid
+  - name: The Boeing Company
+    location: St Louis, MO
+    position: Software Engineering Intern
+    url: https://www.boeing.com
+    startDate: '2011-05'
+    endDate: '2011-08'
+    summary: The Advanced Design Simulation team builds and maintains flight simulations for training pilots on Boeing aircraft
+    highlights:
+      - Built a PHP web application to manage software assets for three different in-house simulation systems
 education:
   - institution: The Catholic University of America
     url: https://www.cua.edu/

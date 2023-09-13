@@ -7,4 +7,4 @@ Run `npm install` in this directory to install dependencies.
 ## Generation
 * To generate a PDF, run `npm run build:pdf`
 * To generate an HTML file, run `npm run build:html`
-* To open a browser and watch for file changes, run `npm start`
+* ~~To open a browser and watch for file changes, run `npm start`~~ (note: this functionality is broken with YAML, but fixed by [this PR](https://github.com/jsonresume/resume-cli/pull/722))
