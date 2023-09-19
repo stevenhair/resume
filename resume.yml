@@ -57,15 +57,15 @@ work:
     highlights:
       - Designed industrial control systems and programmed PLCs for water treatment plants
       - Wrote project specifications that were sent to contractors for bid
-  - name: The Boeing Company
-    location: St Louis, MO
-    position: Software Engineering Intern
-    url: https://www.boeing.com
-    startDate: '2011-05'
-    endDate: '2011-08'
-    summary: The Advanced Design Simulation team builds and maintains flight simulations for training pilots on Boeing aircraft
-    highlights:
-      - Built a PHP web application to manage software assets for three different in-house simulation systems
+#  - name: The Boeing Company
+#    location: St Louis, MO
+#    position: Software Engineering Intern
+#    url: https://www.boeing.com
+#    startDate: '2011-05'
+#    endDate: '2011-08'
+#    summary: The Advanced Design Simulation team builds and maintains flight simulations for training pilots on Boeing aircraft
+#    highlights:
+#      - Built a PHP web application to manage software assets for three different in-house simulation systems
 education:
   - institution: The Catholic University of America
     url: https://www.cua.edu/
