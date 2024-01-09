@@ -1,7 +1,7 @@
 $schema: https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
 basics:
   name: Steven Hair
-  label: Software Engineering Manager / Full-Stack Developer
+  label: Full-Stack Developer
   image: ''
   email: me@stevenhair.com
   summary: ''
@@ -24,29 +24,28 @@ work:
     summary: HedgeServ is an independent fund administrator that provides various fund accounting services and SaaS tools for portfolio management.
     highlights:
       - Built an effective, high-performing international team of nine direct reports (six developers and three QAs) working on four different services
-      - Worked with my team and business stakeholders to turn client requests and business priorities into secure, performant services
-      - Designed and lead the creation of the public-facing and internal authentication services used by all company applications
-      - Pioneered authentication and public-facing application security best practices throughout the company
-      - Orchestrated the development of the company's first public API that exposes data from applications managed by several different teams
-      - Provided support for web applications and services running both on-prem and in AWS
+      - Worked with my team and business stakeholders to turn client requests and business priorities into secure, performant applications
+      - Designed and lead the creation of the user and machine-to-machine authentication services used by most company services
+      - Pioneered authentication and application security best practices throughout the company
+      - Orchestrated the development of the company's first public API that collects and exposes data from multiple applications managed by several different teams
+      - Provided technical support for web applications and services running both on-prem and in AWS
   - name: HedgeServ
     position: Software Engineer
     startDate: '2015-09'
     endDate: '2019-09'
     highlights:
-      - Assisted in managing a team of overseas contractors, including on-site visits
-      - Built Docker-based development stacks that simplified running web applications locally
+      - Built Docker-based development stacks that simplified running distributed web applications locally
       - Created standardized Jenkins CI/CD pipelines and libraries to build and deploy services with minimal per-project configuration
       - Developed and maintained a variety of applications and microservices written in Python, JavaScript, TypeScript, and Java
       - Broke down a legacy monolith into independent applications to improve maintainability and modernize our services
+      - Assisted in managing a team of overseas contractors, including on-site visits
   - name: Freelance Software Developer
     position: ' '
     summary: V.A.G. is a small business that manages bulk fuel purchasing for companies with fleet vehicles.
     startDate: '2014-10'
     highlights:
-      - Automated a previously manual process by developing a Django application that allows multiple suppliers to submit daily bids through a website, by email, or via an API
+      - Developed a Django application that allows users to submit daily bids through a website, by email, or via an API
       - Created a reporting system for company staff to view, extract, and process the bids
-      - Deployed the web app to AWS on an EC2 instance with a PostgreSQL RDS database
   - name: Gannett Fleming
     location: Camp Hill, PA
     position: Systems Engineer
@@ -57,6 +56,14 @@ work:
     highlights:
       - Designed industrial control systems and programmed PLCs for water treatment plants
       - Wrote project specifications that were sent to contractors for bid
+#  - name: US Naval Research Laboratory
+#    location: Washington, DC
+#    position: Research Intern (Material Science Division)
+#    startDate: '2012-06'
+#    endDate: '2013-06'
+#    summary: ''
+#    highlights:
+#      - Performed and assisted with basic research in laser manufacturing, laser transfer, and 3D printing
 #  - name: The Boeing Company
 #    location: St Louis, MO
 #    position: Software Engineering Intern
