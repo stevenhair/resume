@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
+import * as latteTheme from 'jsonresume-theme-latte';
 import parseArgs from 'minimist';
-import * as themeFull from 'jsonresume-theme-full';
 import { readFile, writeFile } from 'node:fs/promises';
 import { promisify } from 'node:util'
 import puppeteer from 'puppeteer'
-import * as resumed from 'resumed';
 import schema from 'resume-schema';
+import * as resumed from 'resumed';
 import YAML from 'yaml';
 
 const HELP_TEXT = `
@@ -51,6 +51,7 @@ async function validate(resume) {
         await schemaValidate(resume);
     } catch (e) {
         console.error(`Invalid resume: ${e[0].message} at ${e[0].path}`);
+        process.exit(1);
     }
 }
 
@@ -72,15 +73,14 @@ async function main() {
     const resume = await readResume(RESUME_INPUT_FILE);
     await validate(resume);
 
-    const theme = themeFull;
     let output;
 
     switch (format) {
         case 'html':
-            output = await renderAsHtml(resume, theme);
+            output = await renderAsHtml(resume, latteTheme);
             break;
         case 'pdf':
-            output = await renderAsPdf(resume, theme);
+            output = await renderAsPdf(resume, latteTheme);
             break;
         default:
             console.error(`Invalid output format "${format}`);

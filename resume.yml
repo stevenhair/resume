@@ -1,10 +1,11 @@
 $schema: https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
 basics:
   name: Steven Hair
-  label: Full-Stack Developer
-  image: ''
+  label: Software Engineering Manager
   email: me@stevenhair.com
-  summary: ''
+  summary: >
+    With over a decade of progressive experience in software engineering and leadership roles, I have consistently driven innovation and efficiency.
+    My track record includes building distributed teams, streamlining processes, and delivering impactful solutions within both the finance and infrastructure sectors.
   location:
     city: Santa Monica
     region: California
@@ -17,27 +18,42 @@ basics:
       url: https://www.linkedin.com/in/steven-hair-597b3b28/
 work:
   - name: HedgeServ
+    company: HedgeServ
     location: Boston, MA / Remote
-    position: Software Engineering Manager / Team Lead
+    position: Software Engineering Manager
     url: https://www.hedgeserv.com
-    startDate: '2019-09'
+    startDate: '2023-04'
     summary: HedgeServ is an independent fund administrator that provides various fund accounting services and SaaS tools for portfolio management.
     highlights:
-      - Assembled an effective international team of nine direct reports (six developers and three QAs) working on four different services
-      - Worked with stakeholders and provided input on requests and designs to shape business requests into new features
-      - Designed and lead the creation of the user and machine-to-machine authentication systems used by most company services
-      - Pioneered authentication and application security best practices throughout the company
-      - Orchestrated the development of the company's first user-accessible API to expose data from multiple applications managed by several different teams
-      - Provided technical support for web applications and services running both on-prem and in AWS
+      - Continued leading my team and working with stakeholders to design and build new features based on client requests and product team priorities
+      - Began the transition from on-prem servers to Kubernetes and other cloud-native technologies in AWS
+      - Orchestrated the exposure of the HedgeServ public API directly to clients, leading to over 110,000 queries per day from users
+      - Designed and lead the creation of secure and performant user and machine-to-machine authentication systems used by almost all HedgeServ-developed services
+      - Coordinated with other development teams and business stakeholders to integrate our applications and provide feedback on design and implementation
+      - Presented my team's applications and proposed designs at company-wide meetings
   - name: HedgeServ
+    company: HedgeServ
+    position: Software Team Lead
+    url: https://www.hedgeserv.com
+    startDate: '2019-09'
+    endDate: '2023-03'
+    highlights:
+      - Interviewed and hired a remote international team of nine direct reports
+      - Led the design and development of a new authentication service that processes 20,000 logins per day.
+        This included replacing our multifactor authentication provider, resulting in a better user experience and a substantial decrease in cost.
+      - Combined the commenting functionality of three different services into a single centralized application that handles over 30,000 requests per day.
+        All HedgeServ services can now use commenting with no additional development work, and users have a consistent experience across applications.
+      - Doubled the number of upstream data sources available in the HedgeServ public API, exposing more data to clients and internal services
+  - name: HedgeServ
+    company: HedgeServ
     position: Software Engineer
+    url: https://www.hedgeserv.com
     startDate: '2015-09'
     endDate: '2019-09'
     highlights:
-      - Built Docker-based development stacks that simplified running distributed web applications locally
-      - Developed a variety of web applications including an authentication service, a commenting platform, and a user-configurable dashboard
-      - Created standardized Jenkins CI/CD pipelines and libraries to build and deploy services with minimal per-project configuration
-      - Broke down a legacy monolith into independent applications to improve maintainability
+      - Built Docker-based development stacks that simplified running microservices locally
+      - Created standardized Jenkins CI/CD pipelines and libraries to allow us to create build and deploy jobs in minutes with minimal configuration
+      - Developed full-stack web applications in JavaScript, TypeScript, Python, and Java
 #  - name: Freelance Software Developer
 #    position: ' '
 #    summary: V.A.G. is a small business that manages bulk fuel purchasing for companies with fleet vehicles.
@@ -46,6 +62,7 @@ work:
 #      - Developed a Django application that allows fuel suppliers to submit daily bids through a website, by email, or via an API
 #      - Created a reporting system for company staff to view, extract, and process the bids
   - name: Gannett Fleming
+    company: Gannett Fleming
     location: Camp Hill, PA
     position: Systems Engineer
     url: https://www.gannettfleming.com
@@ -53,8 +70,9 @@ work:
     endDate: '2015-08'
     summary: Gannett Fleming is a consulting civil engineering firm that focuses on infrastructure including buildings, bridges, dams, and water plants.
     highlights:
-      - Designed industrial control systems and programmed PLCs for water treatment plants
-      - Wrote project specifications that were sent to contractors for bid
+      - Designed control systems and programmed PLCs to control industrial processes and equipment
+      - Wrote project specifications that clients sent for bid to contractors
+      - Participated in project site visits to ensure that projects were on-schedule and executed as designed
 #  - name: US Naval Research Laboratory
 #    location: Washington, DC
 #    position: Research Intern (Material Science Division)
@@ -106,7 +124,4 @@ skills:
       - Docker
       - Jenkins
       - AWS
-meta:
-  canonical: https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json
-  version: v1.0.0
-  lastModified: '2017-12-24T15:53:00'
+      - Terraform

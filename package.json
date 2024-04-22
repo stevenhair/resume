@@ -6,6 +6,7 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "build": "npm run build:pdf && npm run build:html",
     "build:html": "./main.js --format html",
     "build:pdf": "./main.js --format pdf"
   },
@@ -24,7 +25,7 @@
   },
   "homepage": "https://github.com/stevenhair/resume#readme",
   "dependencies": {
-    "jsonresume-theme-full": "^0.0.4",
+    "jsonresume-theme-latte": "^1.0.2",
     "minimist": "^1.2.8",
     "puppeteer": "^22.6.5",
     "resumed": "^3.0.1",
