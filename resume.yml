@@ -23,11 +23,11 @@ work:
     startDate: '2019-09'
     summary: HedgeServ is an independent fund administrator that provides various fund accounting services and SaaS tools for portfolio management.
     highlights:
-      - Built an effective, high-performing international team of nine direct reports (six developers and three QAs) working on four different services
-      - Worked with my team and business stakeholders to turn client requests and business priorities into secure, performant applications
-      - Designed and lead the creation of the user and machine-to-machine authentication services used by most company services
+      - Assembled an effective international team of nine direct reports (six developers and three QAs) working on four different services
+      - Worked with stakeholders and provided input on requests and designs to shape business requests into new features
+      - Designed and lead the creation of the user and machine-to-machine authentication systems used by most company services
       - Pioneered authentication and application security best practices throughout the company
-      - Orchestrated the development of the company's first public API that collects and exposes data from multiple applications managed by several different teams
+      - Orchestrated the development of the company's first user-accessible API to expose data from multiple applications managed by several different teams
       - Provided technical support for web applications and services running both on-prem and in AWS
   - name: HedgeServ
     position: Software Engineer
@@ -35,17 +35,16 @@ work:
     endDate: '2019-09'
     highlights:
       - Built Docker-based development stacks that simplified running distributed web applications locally
+      - Developed a variety of web applications including an authentication service, a commenting platform, and a user-configurable dashboard
       - Created standardized Jenkins CI/CD pipelines and libraries to build and deploy services with minimal per-project configuration
-      - Developed and maintained a variety of applications and microservices written in Python, JavaScript, TypeScript, and Java
-      - Broke down a legacy monolith into independent applications to improve maintainability and modernize our services
-      - Assisted in managing a team of overseas contractors, including on-site visits
-  - name: Freelance Software Developer
-    position: ' '
-    summary: V.A.G. is a small business that manages bulk fuel purchasing for companies with fleet vehicles.
-    startDate: '2014-10'
-    highlights:
-      - Developed a Django application that allows users to submit daily bids through a website, by email, or via an API
-      - Created a reporting system for company staff to view, extract, and process the bids
+      - Broke down a legacy monolith into independent applications to improve maintainability
+#  - name: Freelance Software Developer
+#    position: ' '
+#    summary: V.A.G. is a small business that manages bulk fuel purchasing for companies with fleet vehicles.
+#    startDate: '2014-10'
+#    highlights:
+#      - Developed a Django application that allows fuel suppliers to submit daily bids through a website, by email, or via an API
+#      - Created a reporting system for company staff to view, extract, and process the bids
   - name: Gannett Fleming
     location: Camp Hill, PA
     position: Systems Engineer

@@ -2,13 +2,12 @@
   "name": "resume",
   "version": "1.0.0",
   "description": "Steven Hair's résumé",
-  "main": "index.js",
+  "main": "main.js",
+  "type": "module",
   "private": true,
   "scripts": {
-    "build:html": "resume export --resume resume.yml --theme full resume.html",
-    "build:pdf": "resume export --resume resume.yml --theme full resume.pdf",
-    "start": "resume serve --resume resume.yml --theme full",
-    "test": "resume validate --resume resume.yml"
+    "build:html": "./main.js --format html",
+    "build:pdf": "./main.js --format pdf"
   },
   "repository": {
     "type": "git",
@@ -24,8 +23,14 @@
     "url": "https://github.com/stevenhair/resume/issues"
   },
   "homepage": "https://github.com/stevenhair/resume#readme",
-  "devDependencies": {
+  "dependencies": {
     "jsonresume-theme-full": "^0.0.4",
-    "resume-cli": "^3.0.6"
+    "minimist": "^1.2.8",
+    "puppeteer": "^22.6.5",
+    "resumed": "^3.0.1",
+    "yaml": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.2.5"
   }
 }
