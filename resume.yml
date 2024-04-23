@@ -4,8 +4,9 @@ basics:
   label: Software Engineering Manager
   email: me@stevenhair.com
   summary: >
-    With over a decade of progressive experience in software engineering and leadership roles, I have consistently driven innovation and efficiency.
-    My track record includes building distributed teams, streamlining processes, and delivering impactful solutions within both the finance and infrastructure sectors.
+    Accomplished software engineering leader passionate about building and guiding teams to success.
+    With over ten years of hands-on experience, I thrive on innovation and problem-solving.
+    Skilled in embracing new technologies to drive meaningful change and foster team growth.
   location:
     city: Santa Monica
     region: California
@@ -25,7 +26,7 @@ work:
     startDate: '2023-04'
     summary: HedgeServ is an independent fund administrator that provides various fund accounting services and SaaS tools for portfolio management.
     highlights:
-      - Continued leading my team and working with stakeholders to design and build new features based on client requests and product team priorities
+      - Worked with stakeholders to design and build new features based on client requests and product team priorities
       - Began the transition from on-prem servers to Kubernetes and other cloud-native technologies in AWS
       - Orchestrated the exposure of the HedgeServ public API directly to clients, leading to over 110,000 queries per day from users
       - Designed and lead the creation of secure and performant user and machine-to-machine authentication systems used by almost all HedgeServ-developed services
@@ -48,7 +49,7 @@ work:
     company: HedgeServ
     position: Software Engineer
     url: https://www.hedgeserv.com
-    startDate: '2015-09'
+    startDate: '2015-10'
     endDate: '2019-09'
     highlights:
       - Built Docker-based development stacks that simplified running microservices locally
