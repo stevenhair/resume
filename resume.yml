@@ -5,8 +5,8 @@ basics:
   email: me@stevenhair.com
   summary: >
     Accomplished software engineering leader passionate about building and guiding teams to success.
-    With over ten years of hands-on experience, I thrive on innovation and problem-solving.
-    Skilled in embracing new technologies to drive meaningful change and foster team growth.
+    With over ten years of hands-on experience, I excel in inspiring innovation, fostering collaboration, and driving meaningful change through the adoption of new technologies.
+    Passionate about developing and mentoring talent to achieve collective goals and exceed expectations.
   location:
     city: Santa Monica
     region: California
@@ -24,14 +24,15 @@ work:
     position: Software Engineering Manager
     url: https://www.hedgeserv.com
     startDate: '2023-04'
-    summary: HedgeServ is an independent fund administrator that provides various fund accounting services and SaaS tools for portfolio management.
+    summary: HedgeServ is an innovative financial technology leader, revolutionizing the alternative investment industry with cutting-edge fund administration, accounting, and software solutions.
     highlights:
-      - Worked with stakeholders to design and build new features based on client requests and product team priorities
-      - Began the transition from on-prem servers to Kubernetes and other cloud-native technologies in AWS
+      - Demonstrated commitment to aligning feature development with overarching business goals, fostering trust with stakeholders by prioritizing
+        initiatives that directly contribute to key performance objectives
       - Orchestrated the exposure of the HedgeServ public API directly to clients, leading to over 110,000 queries per day from users
-      - Designed and lead the creation of secure and performant user and machine-to-machine authentication systems used by almost all HedgeServ-developed services
-      - Coordinated with other development teams and business stakeholders to integrate our applications and provide feedback on design and implementation
-      - Presented my team's applications and proposed designs at company-wide meetings
+      - Initiated the transition from on-prem servers to Kubernetes and other cloud-native technologies in AWS, laying the groundwork for a transformative infrastructure upgrade poised to enhance scalability, reliability, and performance of the HedgeServ public API
+      - Designed and implemented a secure and performant user and machine-to-machine authentication systems which has been adopted as the company standard
+      - Collaborated closely with other development teams and business stakeholders to seamlessly integrate our applications, offering valuable feedback on design and implementation strategies
+      - Created and delivered presentations showcasing my team's new and proposed features to company-wide audiences, gathering feedback across departments.
   - name: HedgeServ
     company: HedgeServ
     position: Software Team Lead
@@ -39,11 +40,12 @@ work:
     startDate: '2019-09'
     endDate: '2023-03'
     highlights:
-      - Interviewed and hired a remote international team of nine direct reports
+      - Established a remote international team of nine direct reports with exceptionally low turnover
+      - Actively fostered career growth for all team members, resulting in three promotions to senior positions for team members that demonstrated exceptional technical and leadership skills
       - Led the design and development of a new authentication service that processes 20,000 logins per day.
-        This included replacing our multifactor authentication provider, resulting in a better user experience and a substantial decrease in cost.
+        This included replacing our multifactor authentication provider, resulting in a better user experience while substantially reducing costs and maintaining virtually 100% uptime.
       - Combined the commenting functionality of three different services into a single centralized application that handles over 30,000 requests per day.
-        All HedgeServ services can now use commenting with no additional development work, and users have a consistent experience across applications.
+        All HedgeServ services can now use commenting with no additional development work while providing users have a consistent experience across applications.
       - Doubled the number of upstream data sources available in the HedgeServ public API, exposing more data to clients and internal services
   - name: HedgeServ
     company: HedgeServ
@@ -52,8 +54,8 @@ work:
     startDate: '2015-10'
     endDate: '2019-09'
     highlights:
-      - Built Docker-based development stacks that simplified running microservices locally
       - Created standardized Jenkins CI/CD pipelines and libraries to allow us to create build and deploy jobs in minutes with minimal configuration
+      - Built Docker-based development stacks that simplified running microservices locally
       - Developed full-stack web applications in JavaScript, TypeScript, Python, and Java
 #  - name: Freelance Software Developer
 #    position: ' '
@@ -69,7 +71,7 @@ work:
     url: https://www.gannettfleming.com
     startDate: '2013-07'
     endDate: '2015-08'
-    summary: Gannett Fleming is a consulting civil engineering firm that focuses on infrastructure including buildings, bridges, dams, and water plants.
+    summary: Gannett Fleming is a multidisciplinary engineering and construction management firm renowned for its expertise in infrastructure solutions and sustainable development worldwide.
     highlights:
       - Designed control systems and programmed PLCs to control industrial processes and equipment
       - Wrote project specifications that clients sent for bid to contractors
@@ -94,14 +96,14 @@ work:
 education:
   - institution: The Catholic University of America
     url: https://www.cua.edu/
-    area: Electrical Engineering
-    studyType: Masters
+    area: Master of Electrical Engineering
+#    studyType: Master
     startDate: '2012-08'
     endDate: '2013-05'
   - institution: The Catholic University of America
     url: https://www.cua.edu/
-    area: Electrical Engineering
-    studyType: Bachelor
+    area: Bachelor of Electrical Engineering / Minor in Computer Science
+#    studyType: Bachelor
     startDate: '2008-08-25'
     endDate: '2012-05-05'
 skills:
